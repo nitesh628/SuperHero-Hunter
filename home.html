@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero Finder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Superhero Finder</h1>
+        
+        <!-- Home Page -->
+        <div id="home-page">
+            <input type="text" id="search" class="form-control" placeholder="Search for a superhero...">
+            <div id="superhero-list" class="row mt-4"></div>
+        </div>
+
+        <!-- Superhero Detail Page -->
+        <div id="hero-detail-page" class="hidden">
+            <h1 id="hero-name" class="my-4"></h1>
+            <img id="hero-image" src="" alt="" class="img-fluid mb-4">
+            <p id="hero-description"></p>
+            <h3>Comics</h3>
+            <ul id="hero-comics" class="list-group mb-4"></ul>
+            <button id="back-to-home" class="btn btn-secondary">Back to Home</button>
+        </div>-
+
+        <!-- Favorites Page -->
+        <div id="favorites-page" class="hidden">
+            <h1 class="my-fav">My Favorite Superheroes</h1>
+            <div id="favorites-list" class="row"></div>
+            <button id="back-to-home-favorites" class="btn btn-secondary">Back to Home</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

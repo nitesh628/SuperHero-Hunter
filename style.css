@@ -1,0 +1,70 @@
+body {
+  background-color: #f8f9fa; /* Light background color */
+  font-family: Arial, sans-serif; /* Font for the application */
+}
+
+h1 {
+  color: #343a40; /* Dark color for headings */
+}
+
+.container {
+  margin-top: 20px; /* Space above the container */
+}
+
+.card {
+  transition: transform 0.2s; /* Smooth scaling effect on hover */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.card-img-top {
+  height: 200px; /* Fixed height for images */
+  object-fit: cover; /* Cover the area without distortion */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Primary button color */
+  border: none; /* Remove border */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Danger button color */
+  border: none; /* Remove border */
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Darker shade on hover */
+}
+
+.btn-secondary {
+  background-color: #6c757d; /* Secondary button color */
+  border: none; /* Remove border */
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268; /* Darker shade on hover */
+}
+
+.hidden {
+  display: none; /* Class to hide elements */
+}
+
+.list-group-item {
+  background-color: #ffffff; /* White background for list items */
+  border: 1px solid #dee2e6; /* Light border for list items */
+}
+
+.list-group-item:hover {
+  background-color: #f1f1f1; /* Light gray background on hover */
+}
+
+.my-fav {
+  color: #343a40; /* Dark color for favorites heading */
+  margin-top: 20px; /* Space above favorites heading */
+}
